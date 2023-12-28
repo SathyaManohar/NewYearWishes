@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* background-color: #94fc03; */
+            width: 97vw;
+            height: 100vh;
+            border: dotted deeppink 40px;
+            margin: 10px;
+            margin-top: 10px;
+            overflow: hidden;
+            /* display: flex; */
+
+        }
+
+        .box1 {
+            border: solid red 2px;
+            width: 20%;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            border-top-right-radius: 60px;
+            box-shadow: 20px 10px 2px 8px white;
+            text-shadow: 15px 15px 2px pink;
+            animation-name: anim1;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate;
+
+        }
+
+        @keyframes anim1 {
+            from {
+                top: 10px;
+                left: 2px;
+            }
+
+            to {
+                top: 10px;
+                left: 1100px;
+                ;
+            }
+        }
+
+        .box2 {
+            border: solid red 2px;
+            width: 20%;
+            margin-top: 50px;
+            background-color: pink;
+            /* border-radius: 20px; */
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 10px;
+            padding: 20px;
+            box-shadow: -10px 10px 1px 6px orange, -20px 20px red;
+            animation-name: anim2;
+            animation-duration: 2s;
+            animation-delay: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+            animation-direction: alternate-reverse;
+            position: relative;
+        }
+
+        @keyframes anim2 {
+            from {
+                left: 1100px;
+                top: 30px;
+            }
+
+            to {
+                left: 0px;
+                top: 30px;
+            }
+        }
+
+        .box3 {
+            border: solid red 2px;
+            font-style: italic;
+            font-size: 1000;
+            font-family: cursive;
+            width: 20%;
+            margin-top: 50px;
+            background-color: chartreuse;
+            border-radius: 30px;
+            padding: 20px;
+            box-shadow: 10px 10px orange, 20px 20px red;
+            animation-name: anim3;
+            animation-duration: 5s;
+            animation-delay: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+            animation-direction: reverse;
+            position: relative;
+        }
+
+        @keyframes anim3 {
+            from {
+                left: 1100px;
+                top: 40px;
+            }
+
+            to {
+                left: 0px;
+                top: 40px;
+            }
+        }
+
+        .box4 {
+            border: solid red 2px;
+            width: 20%;
+            margin-top: 50px;
+            background-color: orangered;
+            color: yellow;
+            border-radius: 30px;
+            padding: 10px;
+            box-shadow: inset 10px 10px rgba(255, 255, 255, 0.762);
+            animation-name: anim3;
+            animation-duration: 10s;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+            position: relative;
+        }
+
+        @keyframes anim3 {
+            from {
+                left: 1100px;
+                top: 80px;
+            }
+
+            to {
+                left: 0px;
+                top: 80px;
+            }
+        }
+
+        .container2 {
+            /* background-color: chartreuse; */
+            border: dashed deeppink 2px;
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+            ;
+
+        }
+
+        .one {
+            background-color: violet;
+            color: orangered;
+            justify-content: start;
+            /* align-items:center; */
+            width: 200px;
+            border: solid deeppink 1px;
+            box-shadow: inset 10px 10px white;
+            box-shadow: 10px 10px white;
+        }
+
+        .container {
+            background-image: url("happy-birthday.png");
+        }
+
+        footer {
+            color: orangered;
+            border: solid deeppink 2px;
+
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            background-image: url("tkt4.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+    </style>
+</head>
+
+<body id="five">
+    <div class="container">
+        <div class="box1">
+            WISHING YOU ❤😊
+        </div>
+        <div class="box2">
+            A VERY HAPPY 
+        </div>
+        <div class="box3">
+            NEW YEAR 
+        </div>
+        <div class="box4">
+            WELCOME 2024....
+        </div>
+        <!-- <footer>Welcome To 20</footer> -->
+        <div class="container2">
+            <div class="one">
+                ..........NEW YEAR WISHES.............
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="newpage.js"></script>
+</body>
+
+</html>

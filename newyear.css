@@ -1,0 +1,52 @@
+   body {
+       width: 90vw;
+       height: 100vh;
+       /* background-image:url("newyear.jpeg");  
+         background-repeat: no-repeat;
+         background-size:100% 40%; */
+       background-color: chartreuse;
+       border: dotted deeppink 50px;
+   }
+.newclass{
+    width: 90vw;
+        height: 100vh;
+        background-color:darkblue;
+        border:solid red 3px;
+}
+
+   .main {
+       width: 90vw;
+       height: 100vh;
+       background-color: orangered;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .box {
+       width: 90vw;
+       height: 50vh;
+
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       box-shadow: 10px 10px 40px 40px rgb(15, 226, 15);
+   }
+
+   .item {
+       font-size: 60px;
+       font-style: italic;
+       font-weight: 900;
+       color: blue;
+       text-shadow: 10px 4px 2px white;
+   }
+
+
+   button {
+       color: darkblue;
+       background-color: teal;
+       margin-top: 450px;
+       margin-right: 20px;
+       font-size: 20px;
+       box-shadow: 10px 7px 9px 30px white;
+   }
